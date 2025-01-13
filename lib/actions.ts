@@ -211,3 +211,18 @@ export async function favoriteProperty(id: string): Promise<void> {
   revalidatePath("/properties");
   revalidatePath("/favorites");
 }
+
+export async function getFavoriteProperties(): Promise<Property[]> {
+  // Simulate API delay
+  await new Promise((resolve) => setTimeout(resolve, 1000));
+
+  // Filter the mock properties to only include favorited ones
+  const favoriteProperties = MOCK_PROPERTIES.filter((property) =>
+    favoritesDb.has(property.id)
+  ).map((property) => ({
+    ...property,
+    isFavorite: true, // Since these are favorites, we know this is true
+  }));
+
+  return favoriteProperties;
+}
