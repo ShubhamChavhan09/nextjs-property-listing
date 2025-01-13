@@ -75,88 +75,88 @@ const MOCK_PROPERTIES: Property[] = [
     status: "available",
     description: "Charming cabin with mountain views and rustic charm.",
   },
-  {
-    id: "6",
-    title: "Urban Loft Space",
-    price: 850000,
-    location: "Brooklyn, NY",
-    specs: { beds: 1, baths: 2, area: 1500 },
-    images: [
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800",
-    ],
-    status: "available",
-    description:
-      "Contemporary loft with high ceilings and industrial features.",
-  },
-  {
-    id: "7",
-    title: "Lakefront Property",
-    price: 925000,
-    location: "Seattle, WA",
-    specs: { beds: 3, baths: 2, area: 2200 },
-    images: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
-      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=800",
-    ],
-    status: "pending",
-    description:
-      "Gorgeous lakefront home with private dock and stunning views.",
-  },
-  {
-    id: "8",
-    title: "Desert Oasis Villa",
-    price: 1100000,
-    location: "Phoenix, AZ",
-    specs: { beds: 4, baths: 3, area: 3000 },
-    images: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
-    ],
-    status: "available",
-    description: "Luxurious desert villa with pool and mountain views.",
-  },
-  {
-    id: "9",
-    title: "Historic Townhouse",
-    price: 1400000,
-    location: "Boston, MA",
-    specs: { beds: 3, baths: 2.5, area: 2400 },
-    images: [
-      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
-      "https://images.unsplash.com/photo-1600566753375-17aef55115c9?w=800",
-    ],
-    status: "available",
-    description: "Beautifully restored historic townhouse in prime location.",
-  },
-  {
-    id: "10",
-    title: "Modern Glass House",
-    price: 2100000,
-    location: "Los Angeles, CA",
-    specs: { beds: 4, baths: 4, area: 3500 },
-    images: [
-      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
-    ],
-    status: "pending",
-    description:
-      "Architectural masterpiece with walls of glass and city views.",
-  },
-  {
-    id: "11",
-    title: "Waterfront Estate",
-    price: 3200000,
-    location: "Naples, FL",
-    specs: { beds: 5, baths: 5.5, area: 4800 },
-    images: [
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
-      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
-    ],
-    status: "available",
-    description:
-      "Magnificent estate with private beach access and luxury amenities.",
-  },
+  // {
+  //   id: "6",
+  //   title: "Urban Loft Space",
+  //   price: 850000,
+  //   location: "Brooklyn, NY",
+  //   specs: { beds: 1, baths: 2, area: 1500 },
+  //   images: [
+  //     "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
+  //     "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800",
+  //   ],
+  //   status: "available",
+  //   description:
+  //     "Contemporary loft with high ceilings and industrial features.",
+  // },
+  // {
+  //   id: "7",
+  //   title: "Lakefront Property",
+  //   price: 925000,
+  //   location: "Seattle, WA",
+  //   specs: { beds: 3, baths: 2, area: 2200 },
+  //   images: [
+  //     "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
+  //     "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=800",
+  //   ],
+  //   status: "pending",
+  //   description:
+  //     "Gorgeous lakefront home with private dock and stunning views.",
+  // },
+  // {
+  //   id: "8",
+  //   title: "Desert Oasis Villa",
+  //   price: 1100000,
+  //   location: "Phoenix, AZ",
+  //   specs: { beds: 4, baths: 3, area: 3000 },
+  //   images: [
+  //     "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+  //     "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
+  //   ],
+  //   status: "available",
+  //   description: "Luxurious desert villa with pool and mountain views.",
+  // },
+  // {
+  //   id: "9",
+  //   title: "Historic Townhouse",
+  //   price: 1400000,
+  //   location: "Boston, MA",
+  //   specs: { beds: 3, baths: 2.5, area: 2400 },
+  //   images: [
+  //     "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
+  //     "https://images.unsplash.com/photo-1600566753375-17aef55115c9?w=800",
+  //   ],
+  //   status: "available",
+  //   description: "Beautifully restored historic townhouse in prime location.",
+  // },
+  // {
+  //   id: "10",
+  //   title: "Modern Glass House",
+  //   price: 2100000,
+  //   location: "Los Angeles, CA",
+  //   specs: { beds: 4, baths: 4, area: 3500 },
+  //   images: [
+  //     "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800",
+  //     "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800",
+  //   ],
+  //   status: "pending",
+  //   description:
+  //     "Architectural masterpiece with walls of glass and city views.",
+  // },
+  // {
+  //   id: "11",
+  //   title: "Waterfront Estate",
+  //   price: 3200000,
+  //   location: "Naples, FL",
+  //   specs: { beds: 5, baths: 5.5, area: 4800 },
+  //   images: [
+  //     "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800",
+  //     "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800",
+  //   ],
+  //   status: "available",
+  //   description:
+  //     "Magnificent estate with private beach access and luxury amenities.",
+  // },
 ];
 
 export async function getProperty(id: string): Promise<Property> {
