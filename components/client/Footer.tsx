@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-100 mt-8">
@@ -13,28 +15,28 @@ export default function Footer() {
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a
+                <Link
                   href="/properties"
                   className="text-gray-600 hover:text-gray-900"
                 >
                   Properties
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/favorites"
                   className="text-gray-600 hover:text-gray-900"
                 >
                   Favorites
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/contact"
                   className="text-gray-600 hover:text-gray-900"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -48,15 +50,15 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-600 hover:text-gray-900">
+              <Link href="#" className="text-gray-600 hover:text-gray-900">
                 Twitter
-              </a>
-              <a href="#" className="text-gray-600 hover:text-gray-900">
+              </Link>
+              <Link href="#" className="text-gray-600 hover:text-gray-900">
                 Facebook
-              </a>
-              <a href="#" className="text-gray-600 hover:text-gray-900">
+              </Link>
+              <Link href="#" className="text-gray-600 hover:text-gray-900">
                 Instagram
-              </a>
+              </Link>
             </div>
           </div>
         </div>
